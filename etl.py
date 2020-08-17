@@ -1,9 +1,8 @@
 import configparser
-from datetime import datetime
 import os
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import udf, col, lit
-from pyspark.sql.functions import year, month, dayofmonth, hour, weekofyear, date_format, from_unixtime, dayofweek, monotonically_increasing_id
+from pyspark.sql.functions import year, month, dayofmonth, hour, weekofyear, from_unixtime, dayofweek, monotonically_increasing_id
 
 
 config = configparser.ConfigParser()
